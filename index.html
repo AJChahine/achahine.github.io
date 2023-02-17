@@ -2,31 +2,65 @@
 <html>
   <head>
     <title>Antonio Chahine</title>
-    <style>
-      /* Add your CSS styles here */
-    </style>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
   </head>
   <body>
-    <!-- Navigation menu -->
-    <nav>
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="research.html">Research</a></li>
-        <li><a href="publications.html">Publications</a></li>
-        <li><a href="contact.html">Contact</a></li>
-      </ul>
-    </nav>
-
-    <!-- Main content section -->
-    <section id="home">
-      <h1>Welcome to Antonio Chahine's Website</h1>
-      <div id="slideshow">
-        <img src="images/photo1.jpg" alt="Photo 1">
-        <img src="images/photo2.jpg" alt="Photo 2">
-        <img src="images/photo3.jpg" alt="Photo 3">
+    <header>
+      <div class="container">
+        <div class="logo">
+          <a href="#">Antonio Chahine</a>
+        </div>
+        <nav>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#research">Research</a></li>
+            <li><a href="#publications">Publications</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <section class="hero">
+      <div class="container">
+        <div class="hero-text">
+          <h1>Antonio Chahine</h1>
+          <h2>Researcher in Fluid Mechanics</h2>
+        </div>
       </div>
     </section>
-
-    <!-- Add your JavaScript for the photo slideshow here -->
+    <section class="research" id="research">
+      <div class="container">
+        <h2>Research</h2>
+        <p>Here you can describe your research interests, projects, and findings. You can also include links to any papers or presentations you have given.</p>
+      </div>
+    </section>
+    <section class="publications" id="publications">
+      <div class="container">
+        <h2>Publications</h2>
+        <p>Here you can showcase your published works, including journal articles, conference papers, and book chapters. You can include links to your publications or provide a summary of your findings.</p>
+      </div>
+    </section>
+    <section class="contact" id="contact">
+      <div class="container">
+        <h2>Contact</h2>
+        <p>Here you can provide your contact information, including your email address, phone number, and office location. You can also include a contact form that visitors can use to send you a message.</p>
+      </div>
+    </section>
+    <section class="photo-box">
+      <div class="container">
+        <div class="photo-slideshow">
+          <img src="photo1.jpg" alt="Photo 1">
+          <img src="photo2.jpg" alt="Photo 2">
+          <img src="photo3.jpg" alt="Photo 3">
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="container">
+        <p>Copyright © 2023 Antonio Chahine</p>
+      </div>
+    </footer>
   </body>
 </html>
